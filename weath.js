@@ -49,9 +49,9 @@ function getWeatherData(cityName) {
   // Function to handle button click event
   function handleButtonClick() {
     const locationInput = document.getElementById('location');
-    const cityName = locationInput.value.trim(); // Trim any leading/trailing spaces
+    const cityName = locationInput.value.trim(); 
     getWeatherData(cityName);
-    locationInput.value = ''; // Clear the input field
+    locationInput.value = ''; 
   }
   
   // Add event listener to the search button
