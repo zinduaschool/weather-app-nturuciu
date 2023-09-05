@@ -10,7 +10,7 @@ function getWeatherData(cityName) {
         const humidityElement = document.getElementById('humidity');
         const windElement = document.getElementById('wind');
         const rainElement = document.getElementById('rain');
-        const sunElement = document.getElementById('sun');
+        
   
         if (data.cod === 200) {
           const humidity = data.main.humidity;
