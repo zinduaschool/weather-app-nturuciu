@@ -12,30 +12,38 @@ body {
     width: 500px;
     background-color:rgba(255, 77, 0, 0.977);
     text-align: center;
-    margin: 100px;
-    padding: 50px;
-    border-radius: 30px;
+    margin:100px 400px;
+    padding: 100px;
+        border-radius: 30px;
 
 }
 
 #humidity{
- display: block;
+ display: flex;
+ flex-direction: column;
  width: 40px;
 padding: 70px,;
 }
 
 #rain{
-display: block;
+display: flex;
+flex-direction: column;
     width: 40px;
    padding: 70px,;
-   align-items:left;
+   align-items:center;
    }
-
+.images {
+    display: flex;
+    align-items:center;
+    margin-top: ;
+    justify-content: space-between
+}
  #wind {
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 40px;
    padding: 70px,;
-   align-items:right;
+   align-items:center;
    }
 
    #search{
